@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="720.0" maxWidth="1280.0" minHeight="300.0" minWidth="300.0" prefHeight="422.0" prefWidth="600.0" styleClass="bodybg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mastergraphicthreadtactoe.FXMLDocumentController">
+    <children>
+      <StackPane layoutX="198.0" layoutY="211.0" prefHeight="162.0" prefWidth="204.0">
+         <children>
+              <Button fx:id="button" alignment="CENTER" contentDisplay="CENTER" onAction="#swapPage" text="Start game" StackPane.alignment="TOP_CENTER">
+               <font>
+                  <Font name="Modern No. 20" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </StackPane>
+      <Text fill="WHITE" layoutX="83.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ThreadTacToe" textAlignment="CENTER">
+         <font>
+            <Font name="OCR A Extended" size="60.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alpha v1.0 " />
+    </children>
+</AnchorPane>
